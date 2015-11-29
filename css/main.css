@@ -1,0 +1,169 @@
+
+
+/* ==========================================================================
+   Author's custom styles
+   ========================================================================== */
+/* Default for document ========== */
+
+* {
+  border-radius: 0 !important;
+  -webkit-border-radius: 0 !important;
+     -moz-border-radius: 0 !important;
+          border-radius: 0 !important;
+}
+.test {
+    border-top: 1px solid #ffffff;
+    border-bottom: 1px solid #ffffff;
+}
+
+body {
+  padding-top: 50px;
+  width: 100%;
+  height: 100%;
+  font-family: 'Lato', "Helvetica Neue", Helvetica, Arial, sans-serif;
+  letter-spacing: 0.056em;
+  color: #a1a1a1;
+  background-color: #000000;
+  font-size: 1.125em;
+  position: relative;
+}
+section {
+  padding-top: 3em;
+  padding-bottom: 3em;
+}
+.section-title {
+  color: #ffffff;
+  font-size: 2em;
+  letter-spacing: 0.083em;
+  padding: 0.556em 0 1.111em 0;
+  text-transform: uppercase;
+  font-family: Raleway, "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+a , a:visited{
+    color: #c80a48;
+    -webkit-transition: all .2s ease-in-out;
+    -moz-transition: all .2s ease-in-out;
+    transition: all .2s ease-in-out;
+}
+a:hover, a:focus {
+    text-decoration: none;
+    color: #1d9b6c;
+}
+.btn-default {
+  border: 0.056em solid #c80a48;
+  color: #c80a48;
+  background-color: transparent;
+}
+.btn-default:hover {
+    background-color: #c80a48;
+    border: 0.056em solid #000000;
+    color: #000000;
+}
+.btn:focus {
+  border: none;
+}
+hr {
+    border-color: #c80a48;
+    margin-left: 15%;
+    margin-right: 15%;
+    padding-bottom: 1.12em;
+}
+.grey-section {
+  background-color: #121212;
+}
+.pink-section {
+    background-color: #c80a48;
+    color: #000000;
+}
+.coming-soon {
+  border: 0.056em solid #ffffff;
+}
+
+/* Navbar ==========*/
+.nav {
+    border-style: solid 1px #ffffff;
+}
+#custom-nav {
+    font-family: inherit;
+    text-transform: uppercase;
+    background-color: #000000;
+    color: #ffffff;
+    font-size: 0.778em;
+    letter-spacing: 0.161em;
+    font-weight: 700;
+    border-style: solid 1px #ffffff;
+}
+#custom-nav .navbar-brand {
+  color: #ffffff;
+}
+#custom-nav a {
+  color: #ffffff;
+}
+#custom-nav a:hover {
+  color: #1d9b6c;
+}
+#custom-nav .active>a, #custom-nav .active>a:focus {
+    color: #d8537e;
+}
+/*============== Intro ===========================*/
+
+header {
+    display: table;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    background-color: #ffffff;
+    background-image:
+    linear-gradient(
+      rgba(0, 0, 0, 0.7),
+      rgba(0, 0, 0, 0.7)
+    ), url('../img/header/desk19.jpeg');
+    background-repeat: no-repeat;
+    background-position: center bottom;
+    background-size: cover;
+}
+.intro-body {
+    display: table-cell;
+    vertical-align: middle;
+    color: #ffffff;
+}
+.brand-heading {
+    font-size: 6em;
+    font-family: 'Roboto Condensed', "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-style: italic;
+}
+.intro-text {
+    font-size: 2.24em;
+}
+.intro-divider {
+  font-weight: 700;
+}
+.intro-welcome {
+    font-size: 1.5em;
+}
+.arrow {
+  font-size: 4em;
+  color: #ffffff;
+}
+.arrow a, .arrow a:visited {
+  color: #ffffff;
+}
+.arrow a:hover {
+  color: #1d9b6c;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
