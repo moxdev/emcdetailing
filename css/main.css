@@ -1,4 +1,47 @@
+/*! HTML5 Boilerplate v5.0 | MIT License | http://h5bp.com/ */
 
+html {
+    color: #000000;
+    font-size: 1em;
+    line-height: 1.4;
+    height: 100%;
+    width: 100%;
+}
+
+::-moz-selection {
+    background: #b3d4fc;
+    text-shadow: none;
+}
+
+::selection {
+    background: #b3d4fc;
+    text-shadow: none;
+}
+audio,
+canvas,
+iframe,
+img,
+svg,
+video {
+    vertical-align: middle;
+}
+
+fieldset {
+    border: 0;
+    margin: 0;
+    padding: 0;
+}
+
+textarea {
+    resize: vertical;
+}
+
+.browserupgrade {
+    margin: 0.2em 0;
+    background: #ccc;
+    color: #000000;
+    padding: 0.2em 0;
+}
 
 /* ==========================================================================
    Author's custom styles
@@ -80,9 +123,10 @@ hr {
 }
 
 /* Navbar ==========*/
-.nav {
-    border-style: solid 1px #ffffff;
+.navbar-brand {
+    text-transform: none;
 }
+
 #custom-nav {
     font-family: inherit;
     text-transform: uppercase;
@@ -91,7 +135,6 @@ hr {
     font-size: 0.778em;
     letter-spacing: 0.161em;
     font-weight: 700;
-    border-style: solid 1px #ffffff;
 }
 #custom-nav .navbar-brand {
   color: #ffffff;
@@ -117,10 +160,13 @@ header {
     linear-gradient(
       rgba(0, 0, 0, 0.7),
       rgba(0, 0, 0, 0.7)
-    ), url('../img/header/desk19.jpeg');
+    ), url('../img/intro.jpg');
     background-repeat: no-repeat;
-    background-position: center bottom;
+    background-position: center top;
     background-size: cover;
+        -moz-background-size: cover;
+            -o-background-size: cover;
+                -webkit-background-size: cover;
 }
 .intro-body {
     display: table-cell;
@@ -128,9 +174,9 @@ header {
     color: #ffffff;
 }
 .brand-heading {
-    font-size: 6em;
-    font-family: 'Roboto Condensed', "Helvetica Neue", Helvetica, Arial, sans-serif;
-    font-style: italic;
+    font-size: 3.999em;
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    /*font-style: italic;*/
 }
 .intro-text {
     font-size: 2.24em;
