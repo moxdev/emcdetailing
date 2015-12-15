@@ -1,0 +1,27 @@
+// navbar.scss
+
+.navbar-brand {
+    text-transform: none;
+}
+
+#custom-nav {
+    font-family: inherit;
+    text-transform: uppercase;
+    color: #ffffff;
+    font-size: 0.778em;
+    letter-spacing: 0.161em;
+    font-weight: 700;
+    margin-bottom: 0;
+}
+#custom-nav .navbar-brand {
+  color: #ffffff;
+}
+#custom-nav a {
+  color: #ffffff;
+}
+#custom-nav a:hover {
+  color: #1d9b6c;
+}
+#custom-nav .active>a, #custom-nav .active>a:focus {
+    color: #d8537e;
+}
