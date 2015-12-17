@@ -1,11 +1,13 @@
 // header.scss
+@import 'variables';
 
 header {
+    font-family: $font-rale;
     display: table;
     width: 100%;
     height: 100%;
     text-align: center;
-    background-color: #ffffff;
+    background-color: $white;
     background-image:
     linear-gradient(
       rgba(0, 0, 0, 0.6),
@@ -21,12 +23,11 @@ header {
 .intro-body {
     display: table-cell;
     vertical-align: middle;
-    color: #ffffff;
+    color: $white;
 }
 .brand-heading {
     font-size: 3.999em;
-    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
-    // font-style: italic;
+    font-style: italic;
 }
 .intro-text {
     font-size: 2.24em;
@@ -39,10 +40,10 @@ header {
 }
 .arrow {
   font-size: 4em;
-  color: #ffffff;
+  color: $white;
 }
 .arrow a, .arrow a:visited {
-  color: #ffffff;
+  color: $white;
 }
 .arrow a:hover {
   color: #1d9b6c;
