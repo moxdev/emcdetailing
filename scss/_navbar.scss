@@ -2,20 +2,22 @@
 @import 'variables';
 
 .navbar-brand {
-    text-transform: none;
+    padding: 0;
+    height: 50px;
 }
 
 #custom-nav {
     font-family: inherit;
     text-transform: uppercase;
     color: #ffffff;
-    font-size: 0.778em;
+    font-size: 0.999em;
     letter-spacing: 0.161em;
     font-weight: 700;
-    margin-bottom: 0;
+    // margin-bottom: 0;
+    // padding-bottom: 20px;
 }
-#custom-nav .navbar-brand {
-  color: #ffffff;
+#custom-nav .navbar-nav {
+  padding-top: 20px;
 }
 #custom-nav a {
   color: #ffffff;
