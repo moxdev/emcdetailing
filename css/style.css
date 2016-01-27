@@ -52,12 +52,13 @@ header {
 
 .intro-body {
   display: table-cell;
-  vertical-align: middle;
+  padding-top: 120px;
   color: #ffffff; }
 
 .brand-heading {
   font-size: 3.999em;
-  font-style: italic; }
+  font-style: italic;
+  font-weight: 700; }
 
 .intro-text {
   font-size: 2.24em; }
@@ -80,14 +81,11 @@ header {
 
 #logo-info {
   background-color: #ffffff;
-  padding: 20px 0; }
+  padding: 5px 0; }
 
 .top-phone, .top-email {
   text-align: right;
   color: #000000; }
-
-.top-email {
-  margin-left: 20px; }
 
 .navbar-brand {
   padding: 0;
