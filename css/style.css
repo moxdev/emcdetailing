@@ -53,7 +53,8 @@ header {
 .intro-body {
   display: table-cell;
   padding-top: 120px;
-  color: #ffffff; }
+  color: #ffffff;
+  text-shadow: 2px 2px 3px #cba135; }
 
 .brand-heading {
   font-size: 3.999em;
@@ -80,36 +81,31 @@ header {
   color: #1d9b6c; }
 
 #logo-info {
-  background-color: #ffffff;
-  padding: 5px 0; }
+  background-color: #AB0303;
+  padding: 5px 0;
+  font-size: 0.755em; }
+  #logo-info a {
+    color: #ffffff; }
 
 .top-phone, .top-email {
   text-align: right;
-  color: #000000; }
-
-.navbar-brand {
-  padding: 0;
-  height: 50px; }
+  color: #ffffff; }
 
 #custom-nav {
   font-family: inherit;
   text-transform: uppercase;
-  color: #ffffff;
-  font-size: 0.999em;
+  color: #000000;
+  font-size: 0.766em;
   letter-spacing: 0.161em;
-  font-weight: 700; }
-
-#custom-nav .navbar-nav {
-  padding-top: 20px; }
-
-#custom-nav a {
-  color: #ffffff; }
-
-#custom-nav a:hover {
-  color: #1d9b6c; }
-
-#custom-nav .active > a, #custom-nav .active > a:focus {
-  color: #d8537e; }
+  font-weight: 700;
+  background-color: #ffffff;
+  margin-bottom: 0; }
+  #custom-nav a {
+    color: #000000; }
+  #custom-nav a:hover {
+    color: #AB0303;
+    background-color: transparent;
+    text-decoration: underline; }
 
 #services {
   font-family: "Source Sans Pro", sans-serif;
@@ -125,7 +121,7 @@ header {
     width: 50px;
     height: 1px;
     margin-left: -25px;
-    background-color: #d65050; }
+    background-color: #AB0303; }
   #services h2 {
     padding: 0;
     color: #443f3f; }

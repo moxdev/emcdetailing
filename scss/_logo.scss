@@ -3,12 +3,19 @@
 
 // Logo at top of page
 #logo-info {
-    background-color: #ffffff;
+    background-color: #AB0303;
     padding: 5px 0;
+    font-size: 0.755em;
+    // background-color: #5C0404;
+    // font-family: $font-sans;
+    a {
+        color: $white;
+        // font-weight: 700;
+    }
 }
 .top-phone, .top-email {
   text-align: right;
-  color: #000000;
+  color: $white;
 }
 // .top-email {
 //   margin-left: 20px;
